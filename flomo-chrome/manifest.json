@@ -1,0 +1,42 @@
+{
+    "name": "flomo",
+    "description": "flomo for chrome",
+    "version": "1.0.1",
+    "manifest_version": 2,
+    "icons": {
+        "16": "logo-16.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "flomo",
+        "default_icon": {
+            "16": "logo-16.png"
+        }
+    },
+    "permissions": [ //允许插件访问的url
+        "https://flomoapp.com/*/",
+        "tabs",
+        "contextMenus",
+        "storage",
+        "notifications"
+    ],
+    "background": {
+        "page": "background.html"
+    },
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+F",
+                "mac": "MacCtrl+Shift+F"
+            },
+            "description": "Opens index.html"
+        }
+    },
+    "options_page": "options.html",
+    "content_scripts": [{
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["js/jquery-1.9.1.min.js", "js/core.js"],
+        "run_at": "document_start",
+        "all_frames": true
+    }]
+}
