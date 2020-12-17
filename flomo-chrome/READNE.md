@@ -12,7 +12,7 @@
 4、 配置好API地址，在任意网页右键即可看到Save Link to flomo / Save Text to flomo
 
 ### 更多
-- 支持两种send to flomo（**来自：**）
+- 支持两种send to flomo（增加 **来自：**）
     - Save Link to flomo（当前网页地址 ）
     - Save Text to flomo（复制的文字 + 当前网页地址 ）
 
