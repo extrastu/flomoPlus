@@ -1,11 +1,21 @@
 # flomo for chrome
 > 我的第一个chrome 插件竟然给了[flomo](http://flomoapp.com/)
 
+**目前还未上架，只能以压缩包形式安装**
+
+### 预览
+
+![](https://tva1.sinaimg.cn/large/0081Kckwgy1glqy247st8j309p0am42a.jpg)
+
+![](https://tva1.sinaimg.cn/large/0081Kckwgy1glqy34a31kj30rs0g3gyq.jpg)
+
+![](https://tva1.sinaimg.cn/large/0081Kckwgy1glqy8vamj6j30ir05k74v.jpg)
+
 ### 使用说明
 
 1、 下载/clone [https://github.com/it5200/flomoPlugin.git](https://github.com/it5200/flomoPlugin.git)
 
-2、解压把chrome 里的 flomo-chome 拖入chrome 扩展程序 -> chrome://extensions/
+2、解压把 flomo-chome 拖入chrome 扩展程序 -> chrome://extensions/
 
 3、右键flomo-chrome icon 点击选项输入flomo API 地址  
 

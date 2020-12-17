@@ -1,9 +1,7 @@
-(function() {
-    window.onmouseup = function() {
-        var selection = window.getSelection();
+window.onmouseup = function() {
+    var selection = window.getSelection();
 
-        if (selection.anchorOffset != selection.extentOffset) {
-            chrome.runtime.sendMessage(selection.toString() + window.location.href);
-        }
+    if (selection.anchorOffset != selection.extentOffset) {
+        chrome.runtime.sendMessage(selection.toString());
     }
-})();
+}

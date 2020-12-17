@@ -46,7 +46,7 @@ function sendToFlomoWithText(info, tab) {
 
         chrome.tabs.getSelected(null, function(tab) {
             currentUrl = tab.url
-            content = "#chrome " + info.selectionText + "来自：" + currentUrl
+            content = "#chrome " + info.selectionText + " 来自：" + currentUrl
             var data = {
                 content: content
             }
@@ -81,17 +81,7 @@ function sendToFlomo(data, url) {
 
 
 chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
-    chrome.contextMenus.update('flomo', {
-        'title': 'Send to flomo“' + message + '”'
+    chrome.contextMenus.update('flomoText', {
+        'title': 'Send Text to flomo“' + message + '”'
     })
 });
-
-// chrome.browserAction.onClicked.addListener(function(tab) {
-//     if (tab.url.indexOf("http") != -1) {
-//         chrome.tabs.executeScript(tab.id, {
-//             "file": "popup.js"
-//         }, function() {
-//             console.log("Script Executed .. ");
-//         });
-//     }
-// });
