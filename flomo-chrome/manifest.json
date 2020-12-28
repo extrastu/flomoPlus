@@ -38,5 +38,6 @@
         "js": ["js/jquery-1.9.1.min.js", "js/core.js"],
         "run_at": "document_start",
         "all_frames": true
-    }]
+    }],
+    "omnibox": { "keyword": "memo" }
 }

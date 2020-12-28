@@ -65,8 +65,12 @@ function sendToFlomo(data, url) {
         success: function(data) {
             console.log('succes: ' + data);
             if (data.code == 0) {
-                alert(data.message)
-
+                chrome.notifications.create(null, {
+                    type: 'basic',
+                    iconUrl: 'logo.png',
+                    title: '通知',
+                    message: data.message
+                });
             } else {
 
                 alert(data.message)
@@ -81,4 +85,23 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
     chrome.contextMenus.update('flomoText', {
         'title': 'Send Text to flomo“' + message + '”'
     })
+});
+
+
+chrome.omnibox.onInputChanged.addListener((text, suggest) => {
+    console.log('inputChanged: ' + text);
+    if (!text) return;
+    suggest([
+        { content: "#chrome " + text, description: '保存到flomo ===>>>  ' + text }
+    ])
+});
+
+chrome.omnibox.onInputEntered.addListener((text) => {
+    console.log('inputEntered: ' + text);
+    if (!text) return;
+    var data = {
+        content: text
+    }
+    var url = localStorage.api || '';
+    sendToFlomo(data, url)
 });
