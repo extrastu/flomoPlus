@@ -3,6 +3,15 @@
 
 **目前还未上架，只能以压缩包形式安装**
 
+### 更新说明
+#### v1.0.2
+- Save LInk to flomo 新增 title（预览如下图）
+
+![](https://tva1.sinaimg.cn/large/0081Kckwgy1gm3ax2zhgyj30il02a744.jpg)
+
+#### v1.0.1
+- 初始版本提交
+
 ### 预览
 
 ![](https://tva1.sinaimg.cn/large/0081Kckwgy1glqy247st8j309p0am42a.jpg)
@@ -10,6 +19,9 @@
 ![](https://tva1.sinaimg.cn/large/0081Kckwgy1glqy34a31kj30rs0g3gyq.jpg)
 
 ![](https://tva1.sinaimg.cn/large/0081Kckwgy1glqy8vamj6j30ir05k74v.jpg)
+
+
+![](https://tva1.sinaimg.cn/large/0081Kckwgy1gm3ax2zhgyj30il02a744.jpg)
 
 ### 使用说明
 
