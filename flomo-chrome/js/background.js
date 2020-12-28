@@ -85,6 +85,18 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
     chrome.contextMenus.update('flomoText', {
         'title': 'Send Text to flomo“' + message + '”'
     })
+
+
+    chrome.tabs.getSelected(null, function(tab) {
+        currentUrl = tab.url
+        content = "#chrome " + message + " 来自：" + currentUrl
+        var data = {
+            content: content
+        }
+        var url = localStorage.api || '';
+        sendToFlomo(data, url)
+    });
+
 });
 
 
@@ -92,16 +104,35 @@ chrome.omnibox.onInputChanged.addListener((text, suggest) => {
     console.log('inputChanged: ' + text);
     if (!text) return;
     suggest([
-        { content: "#chrome " + text, description: '保存到flomo ===>>>  ' + text }
+        { content: "#chrome " + text, description: '保存到flomo ===>>>  ' + text },
+        { content: "flomo", description: '回到flomo https://flomoapp.com/mine' }
     ])
 });
 
 chrome.omnibox.onInputEntered.addListener((text) => {
     console.log('inputEntered: ' + text);
     if (!text) return;
-    var data = {
-        content: text
+    if (text == "flomo") {
+        openUrlCurrentTab("https://flomoapp.com/mine");
+    } else {
+        var data = {
+            content: text
+        }
+        var url = localStorage.api || '';
+        sendToFlomo(data, url)
     }
-    var url = localStorage.api || '';
-    sendToFlomo(data, url)
 });
+
+
+// 获取当前选项卡ID
+function getCurrentTabId(callback) {
+    chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
+        if (callback) callback(tabs.length ? tabs[0].id : null);
+    });
+}
+// 当前标签打开某个链接
+function openUrlCurrentTab(url) {
+    getCurrentTabId(tabId => {
+        chrome.tabs.update(tabId, { url: url });
+    })
+}

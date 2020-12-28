@@ -5,9 +5,14 @@
 
 ### 更新说明
 
+#### v1.0.4（更快捷Send Text to flomo）
+- 选中文字出现flomo 图标，点击即可发送到flomo(少楠的意见)
+
 #### v1.0.3 (在浏览器上随时随地的记录)
 - 增加搜索建议，输入memo ，然后回车输入任意文字，点击enter即可保存到flomo
 - 通知优化，使用chrome通知
+
+![](https://tva1.sinaimg.cn/large/0081Kckwgy1gm3pldp5hgj306b01wmwz.jpg)
 
 
 #### v1.0.2
