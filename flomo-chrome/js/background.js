@@ -17,14 +17,11 @@ function sendToFlomoWithLink(tab) {
     var url = localStorage.api || '';
     var opt = null;
     var content = ""
-    var currentUrl = ""
     if (url == '') {
         alert('请填写API后才能使用呃~(右键)')
     } else {
         chrome.tabs.getSelected(null, function(tab) {
-            console.log(tab.url);
-            currentUrl = tab.url
-            content = "#chrome " + "来自：" + currentUrl
+            content = "#chrome " + "标题：" + tab.title + "，来自：" + tab.url
 
             var data = {
                 content: content
