@@ -8,6 +8,8 @@
 #### v1.0.5（处于完善）
 - 优化扩展页面无logo
 
+![](https://tva1.sinaimg.cn/large/0081Kckwgy1gm4h6t9zu0j30b3062a9y.jpg)
+
 #### v1.0.4（更快捷Send Text to flomo）
 - 选中文字出现flomo 图标，点击即可发送到flomo(少楠的意见)
 
