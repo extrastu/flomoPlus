@@ -6,62 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>填写flomo API</title>
     <script src="js/jquery-1.9.1.min.js"></script>
-    <style>
-        .container {
-            width: 50vw;
-            margin: 100px auto;
-            text-align: center;
-        }
-        
-        .box {}
-        
-        input {
-            outline-style: none;
-            border: 1px solid #ccc;
-            border-radius: 3px;
-            padding: 13px 14px;
-            font-size: 14px;
-            font-weight: 700;
-            font-family: "Microsoft soft";
-            width: 80%;
-        }
-        
-        input:focus {
-            border-color: #66afe9;
-            outline: 0;
-            -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
-            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
-        }
-        
-        .btn {
-            background-color: #4CAF50;
-            /* Green */
-            border: none;
-            color: white;
-            padding: 12px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-        }
-        
-        .footer {
-            text-align: center;
-            padding: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/options.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="box">
-            <input type="text" id="api" placeholder="请输入flomo API地址" />
-            <button class="btn" type="button" id="save">保存</button>
+    <div class="main">
+        <div class="header">
+            <div class="logo"><img src="./logo.png" width="50" height="50" alt=""></div>
         </div>
-        <div class="footer">
-            flomo for chromo by extrastu
+        <div class="options">
+            <div class="options_header">Flomo For Chromo</div>
+            <div class="container">
+                <div class="box">
+                    <input type="text" id="api" placeholder="请输入flomo API地址" />
+                    <button class="btn" type="button" id="save">保存</button>
+                </div>
+                <div class="link">
+                    <a href="https://flomoapp.com/register2/?NjM0"> 如果喜欢/没有注册，可以使用我的链接注册 🔗 </a>
+                </div>
+            </div>
+
         </div>
-        <a href="https://flomoapp.com/register2/?NjM0"> 如果喜欢/没有注册，可以使用我的链接注册 🔗 </a>
+        <div class="copyright">&copy; <span id="current_year"></span> flomo for chromo by extrastu</div>
     </div>
 
     <script src="js/options.js"></script>

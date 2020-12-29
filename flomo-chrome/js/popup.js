@@ -7,5 +7,12 @@
         $('#tip').text('右键flomo icon 选择选项，进入选项页填写flomo API')
     }
 
-    $('.url').text(window.location.href)
+
+    document.addEventListener('DOMContentLoaded', function() {
+        for (const anchor of document.getElementsByTagName('a')) {
+            anchor.onclick = () => {
+                chrome.tabs.create({ active: true, url: anchor.href });
+            };
+        };
+    });
 })();
