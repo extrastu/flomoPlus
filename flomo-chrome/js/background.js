@@ -65,12 +65,13 @@ function sendToFlomo(data, url) {
         success: function(data) {
             console.log('succes: ' + data);
             if (data.code == 0) {
-                chrome.notifications.create(null, {
-                    type: 'basic',
-                    iconUrl: 'logo.png',
-                    title: '通知',
-                    message: data.message
-                });
+                // chrome.notifications.create(null, {
+                //     type: 'basic',
+                //     iconUrl: 'logo.png',
+                //     title: '通知',
+                //     message: data.message
+                // });
+                alert(data.message)
             } else {
 
                 alert(data.message)
