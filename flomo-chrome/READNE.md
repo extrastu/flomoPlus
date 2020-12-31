@@ -5,6 +5,15 @@
 
 ### 更新说明
 
+#### v1.0.7
+- 优化快捷记录，默认关闭(需要去设置页面启用)
+
+![](https://tva1.sinaimg.cn/large/0081Kckwgy1gm747c4du4j30ox0f7gmc.jpg)
+#### v1.0.6 (开启UI优化之路)
+- 优化popup
+
+![](https://tva1.sinaimg.cn/large/0081Kckwgy1gm6sw4xwlnj30cc0c8aao.jpg)
+
 #### v1.0.5（处于完善）
 - 优化扩展页面无logo
 
