@@ -38,6 +38,8 @@ window.onload = function () {
             }, 100);
           }
         }, 200);
+      }else{
+        chrome.runtime.sendMessage({type:'text',content: selectText()});
       }
     });
   };

@@ -1,9 +1,11 @@
 chrome.storage.sync.set({
   quick_enabled: false,
 });
+
+
 chrome.contextMenus.create({
   type: "normal",
-  title: "Save Text to flomo",
+  title: "Save Text to flomo(#chrome)",
   id: "flomoText",
   onclick: sendToFlomoWithText,
   contexts: ["selection"],
@@ -16,6 +18,7 @@ chrome.contextMenus.create({
   onclick: sendToFlomoWithLink,
 });
 
+
 function sendToFlomoWithLink(tab) {
   var url = localStorage.api || "";
   var opt = null;
@@ -23,8 +26,10 @@ function sendToFlomoWithLink(tab) {
   if (url == "") {
     alert("请填写API后才能使用呃~(右键)");
   } else {
+
     chrome.tabs.getSelected(null, function (tab) {
-      content = "#chrome " + "标题：" + tab.title + "，来自：" + tab.url;
+      var tag = localStorage.tag?localStorage.tag:'#chrome ' 
+      content = "#"+ tag + " 标题：" + tab.title + "，来自：" + tab.url;
 
       var data = {
         content: content,
@@ -45,7 +50,8 @@ function sendToFlomoWithText(info, tab) {
   } else {
     chrome.tabs.getSelected(null, function (tab) {
       currentUrl = tab.url;
-      content = "#chrome " + info.selectionText + " 来自：" + currentUrl;
+      var tag = localStorage.tag?localStorage.tag:'#chrome ' 
+      content = "#"+tag + " "+ info.selectionText + " 来自：" + currentUrl;
       var data = {
         content: content,
       };
@@ -65,12 +71,6 @@ function sendToFlomo(data, url) {
     success: function (data) {
       console.log("succes: " + data);
       if (data.code == 0) {
-        // chrome.notifications.create(null, {
-        //     type: 'basic',
-        //     iconUrl: 'logo.png',
-        //     title: '通知',
-        //     message: data.message
-        // });
         alert(data.message);
       } else {
         alert(data.message);
@@ -80,19 +80,26 @@ function sendToFlomo(data, url) {
 }
 
 chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
-  chrome.contextMenus.update("flomoText", {
-    title: "Send Text to flomo“" + message + "”",
-  });
-
-  chrome.tabs.getSelected(null, function (tab) {
-    currentUrl = tab.url;
-    content = "#chrome " + message + " 来自：" + currentUrl;
-    var data = {
-      content: content,
-    };
-    var url = localStorage.api || "";
-    sendToFlomo(data, url);
-  });
+  if(message.type=='text'){
+    chrome.contextMenus.update("flomoText", {
+      title: "Send Text to flomo(#"+localStorage.tag+")“" + message.content + "”",
+    });
+  }
+  chrome.storage.sync.get("quick_enabled", function (obj) {
+    var checked = obj.quick_enabled;
+    if (checked) {
+      chrome.tabs.getSelected(null, function (tab) {
+        currentUrl = tab.url;
+        content = +localStorage.tag?localStorage.tag:'#chrome ' + " "+ message + " 来自：" + currentUrl;
+        var data = {
+          content: content,
+        };
+        var url = localStorage.api || "";
+        sendToFlomo(data, url);
+      });
+    }
+  })
+  
 });
 
 chrome.omnibox.onInputChanged.addListener((text, suggest) => {

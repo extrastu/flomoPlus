@@ -10,6 +10,17 @@
         }
     };
 
+    var tag = localStorage.tag || "";
+    document.getElementById("tag").value = tag;
+    document.getElementById("saveTag").onclick = function () {
+        localStorage.tag = document.getElementById("tag").value;
+        if (localStorage.tag) {
+            alert("保存成功");
+        } else {
+            alert("请输入默认标签");
+        }
+    };
+    
     var quick = document.querySelector("#quick");
     var checked = localStorage.quick_enabled || false
     quick.checked = checked;

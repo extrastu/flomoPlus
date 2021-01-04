@@ -137,3 +137,7 @@ input:focus {
     margin: 10px 0;
 }
 
+
+.box{
+    margin: 10px auto;
+}
