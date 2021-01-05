@@ -51,9 +51,9 @@
 
 1、 下载/clone [https://github.com/it5200/flomoPlugin.git](https://github.com/it5200/flomoPlugin.git)
 
-2、解压把 flomo-chome 拖入chrome 扩展程序 -> chrome://extensions/
+2、解压把 flomo 拖入浏览器 扩展程序 
 
-3、右键flomo-chrome icon 点击选项输入flomo API 地址  
+3、点击flomo icon 点击设置API进入设置页面输入flomo API 地址  
 
 4、 配置好API地址，在任意网页右键即可看到Save Link to flomo / Save Text to flomo
 
