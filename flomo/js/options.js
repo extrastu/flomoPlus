@@ -10,7 +10,7 @@
         }
     };
 
-    var tag = localStorage.tag || "";
+    var tag = localStorage.tag || "Edge";
     document.getElementById("tag").value = tag;
     document.getElementById("saveTag").onclick = function () {
         localStorage.tag = document.getElementById("tag").value;

@@ -1,40 +1,37 @@
-# flomo for chrome
-> 我的第一个chrome 插件竟然给了[flomo](http://flomoapp.com/)
+# flomo 
+> 我的第一个Edge 插件竟然给了[flomo](http://flomoapp.com/)
 
 **目前还未上架，只能以压缩包形式安装**
 
 ### 更新说明
 
+#### v1.0.8
+- 新增修改默认tag
+  
 #### v1.0.7
 - 优化快捷记录，默认关闭(需要去设置页面启用)
 
-![](https://tva1.sinaimg.cn/large/0081Kckwgy1gm747c4du4j30ox0f7gmc.jpg)
 #### v1.0.6 (开启UI优化之路)
 - 优化popup
 
-![](https://tva1.sinaimg.cn/large/0081Kckwgy1gm6sw4xwlnj30cc0c8aao.jpg)
 
 #### v1.0.5（处于完善）
 - 优化扩展页面无logo
 
-![](https://tva1.sinaimg.cn/large/0081Kckwgy1gm4h6t9zu0j30b3062a9y.jpg)
 
 #### v1.0.4（更快捷Send Text to flomo）
 - 选中文字出现flomo 图标，点击即可发送到flomo(少楠的意见)
 
-![](https://tva1.sinaimg.cn/large/0081Kckwgy1gm3pldp5hgj306b01wmwz.jpg)
 
 #### v1.0.3 (在浏览器上随时随地的记录)
 - 增加搜索建议，输入memo ，然后回车输入任意文字，点击enter即可保存到flomo
 - 通知优化，使用chrome通知
 
-![](https://tva1.sinaimg.cn/large/0081Kckwgy1gm3po6fpkzj312j06gjrj.jpg)
 
 
 #### v1.0.2
 - Save LInk to flomo 新增 title（预览如下图）
 
-![](https://tva1.sinaimg.cn/large/0081Kckwgy1gm3ax2zhgyj30il02a744.jpg)
 
 #### v1.0.1
 - 初始版本提交
@@ -65,7 +62,7 @@
     - Save Link to flomo（当前网页地址 ）
     - Save Text to flomo（复制的文字 + 当前网页地址 ）
 
-- 默认 #chrome 标签
+- 默认 #Edge 标签
 
 
 
