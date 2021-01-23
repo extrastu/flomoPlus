@@ -4,6 +4,12 @@
 
 PS：如果喜欢可以使用[我的链接🔗](https://flomoapp.com/register2/?NjM0)注册
 
+### chrome 商店现在已经上架
+
+[flomo](https://chrome.google.com/webstore/detail/flomo/kcijjmomofpdcpeiagibojhjifhegepj)
+
+![](https://tva1.sinaimg.cn/large/008eGmZEgy1gmxdqcvy92j30zr0qraen.jpg)
+
 
 ![](https://tva1.sinaimg.cn/large/008eGmZEgy1gmrzmucfcrj312w0fk3zt.jpg)
 
