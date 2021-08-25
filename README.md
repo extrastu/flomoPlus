@@ -1,6 +1,6 @@
 <img src="https://flomoapp.com/images/logo-192x192.png" alt="flomoplus logo" align="right" width="82px" />
 
-# flomoPlugin
+# flomoPlus
 
 
 [![](https://img.shields.io/github/release/it5200/flomoPlugin.svg)](https://github.com/it5200/flomoPlugin/releases)
