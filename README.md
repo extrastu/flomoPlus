@@ -1,4 +1,4 @@
-<img src="https://flomoapp.com/images/logo-192x192.png" alt="flomoplus logo" align="right" width="82px" />
+<img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtv7lyn12wj603k03ka9u02.jpg" alt="flomoplus logo" align="right" width="82px" />
 
 # flomoPlus
 
