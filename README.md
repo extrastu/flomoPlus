@@ -23,7 +23,7 @@ PS：如果喜欢可以使用[我的链接🔗](https://flomoapp.com/register2/?
 请使用 Chrome 浏览器访问网上应用店获取插件下载。
 
 <a href="https://chrome.google.com/webstore/detail/flomoplus/kcijjmomofpdcpeiagibojhjifhegepj">
-  <img src="https://flomo.oss-cn-shanghai.aliyuncs.com/file/2021-08-25/634/46b40ea0c7230ca77652839d4e70e74a.png?OSSAccessKeyId=LTAI4G9PcaGksWVKCPrE1TVL&Expires=1629866169&Signature=9z%2FHYjxuvr2m3Gjo5EzUPvpg6d8%3D" alt="Download flomoplus on the Chrome Web Store" width="248px" height="75px" />
+  <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtzt8n5jwmj60ds046wed02.jpg" alt="Download flomoplus on the Chrome Web Store" width="248px" height="75px" />
 </a>
 
 ### 指南
