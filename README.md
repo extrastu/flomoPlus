@@ -38,4 +38,4 @@ PS：如果喜欢可以使用[我的链接🔗](https://flomoapp.com/register2/?
 
 ### 协议
 
-基于 [MIT](COPYING) 协议发布。版权所有 © 2021 extrastu
+基于 [MIT](https://github.com/it5200/flomoPlus/blob/master/LICENSE) 协议发布。版权所有 © 2021 extrastu
