@@ -26,6 +26,12 @@ PS：如果喜欢可以使用[我的链接🔗](https://flomoapp.com/register2/?
   <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtzt8n5jwmj60ds046wed02.jpg" alt="Download flomoplus on the Chrome Web Store" width="248px" height="75px" />
 </a>
 
+### 体验beta版本
+
+需要卸载之前的版本再使用beta版本，否则会出现功能异常
+
+**[releases](https://github.com/it5200/flomoPlus/releases)**
+
 ### 指南
 
 **[flomo 101](https://help.flomoapp.com/advance/extension/chrome-extension)**
