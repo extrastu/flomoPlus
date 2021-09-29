@@ -32,6 +32,14 @@ PS：如果喜欢可以使用[我的链接🔗](https://flomoapp.com/register2/?
 
 **[releases](https://github.com/it5200/flomoPlus/releases)**
 
+
+### flomo+ 微信小程序版本
+
+目前支持微信读书笔记同步到flomo
+
+![扫码_搜索联合传播样式-白色版](https://user-images.githubusercontent.com/19451694/135210747-3cda2860-2943-49e1-924f-e71740d577da.png)
+
+
 ### 指南
 
 **[flomo 101](https://help.flomoapp.com/advance/extension/chrome-extension)**
