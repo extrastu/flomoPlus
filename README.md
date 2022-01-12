@@ -15,7 +15,7 @@ PS：如果喜欢可以使用[我的链接🔗](https://flomoapp.com/register2/?
 ### 团队
 
 
-**[@extrastu](https://fanfou.com/extrastu)**|**[@少楠Melow](https://web.okjike.com/u/7B1385A9-FCC9-4446-B8CE-472EAF6817B2)**
+**[@extrastu](https://web.okjike.com/u/3F7E70D2-E380-49C6-A9A5-905013A5735B)**|**[@少楠Melow](https://web.okjike.com/u/7B1385A9-FCC9-4446-B8CE-472EAF6817B2)**
 :-----:|:-----:
 
 ### 下载安装
