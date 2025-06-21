@@ -43,6 +43,9 @@ PS：如果喜欢可以使用[我的链接🔗](https://flomoapp.com/register2/?
 
 ![扫码_搜索联合传播样式-白色版](https://user-images.githubusercontent.com/19451694/135210747-3cda2860-2943-49e1-924f-e71740d577da.png)
 
+### vscode flomoplus 
+[vscode flomoplus](https://marketplace.visualstudio.com/items?itemName=extrastu.flomoplus)
+
 
 ### 指南
 
