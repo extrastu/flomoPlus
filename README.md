@@ -26,9 +26,13 @@ PS：如果喜欢可以使用[我的链接🔗](https://flomoapp.com/register2/?
 
 请使用 Chrome 浏览器访问网上应用店获取插件下载。
 
+chrome 版本
+
 <a href="https://chrome.google.com/webstore/detail/flomoplus/kcijjmomofpdcpeiagibojhjifhegepj">
   <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtzt8n5jwmj60ds046wed02.jpg" alt="Download flomoplus on the Chrome Web Store" width="248px" height="75px" />
 </a>
+
+[vscode 版本](https://github.com/extrastu/vscode-flomo)
 
 ### 体验beta版本
 
