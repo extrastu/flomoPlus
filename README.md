@@ -60,6 +60,10 @@ chrome 版本
 
 ![](https://tva1.sinaimg.cn/large/0081Kckwgy1gm4rwcsj2uj30u00u0wfb.jpg)
 
+### 新作品
+[sidebrowser](https://chromewebstore.google.com/detail/side-browser/pcamlcdojeblfddaeoajojpjnenniedk) 可以把 flomo 放在浏览器的侧边栏
+
+<img width="1618" height="2036" alt="image" src="https://github.com/user-attachments/assets/b79ff08a-256f-46a1-beeb-940025c002e1" />
 
 ### 协议
 
